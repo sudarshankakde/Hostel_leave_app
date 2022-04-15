@@ -2,14 +2,11 @@ import React from 'react'
 
 function PendingApplication(props) {
     window.document.title = props.title;
-    var PendingApplicationsCount = 150;
     function showSomeData() {
 
 
         return (
             <>
-
-
                 <div className="col-4  border border-dark p-3 m-1 mx-auto w-75" style={{ userSelect: "auto", }}>
                     <p className='row'>
                         <div className="col-lg-9 col-12 order-2 order-lg-1 ">

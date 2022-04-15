@@ -1,16 +1,17 @@
 import React from 'react'
 import dte from '../res/images/dte.jpg'
 import '../res/css/style.css'
-import { Link ,NavLink} from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
     const logostyle = {
         height: "10vh",
         zIndex: 15,
     };
+
     return (
         <>
             <div className="text-center navbar-light bg-dark  py-2 " id='navbar'>
-                <a className="navbar-brand float-lg-left ml-lg-5 px-auto  mx-auto mx-lg-5 px-2" href='/home'>
+                <a className="navbar-brand float-lg-left ml-lg-5 px-auto  mx-auto mx-lg-5 px-2" href='/Home'>
                     <img src={dte} alt="DTE" className="img-fluid shadow"
                         style={logostyle} id="logo" /></a>
                 <b className="navbar-text text-center text-light ml-lg-5 px-auto  mx-auto mx-lg-5 px-2">
@@ -20,7 +21,7 @@ function Navbar() {
 
 
             </div>
-            <div className="offcanvas offcanvas-end bg-dark text-light" tabIndex="-1" id="manu" aria-labelledby="manuLabel" data-bs-backdrop="true">
+            <div className="offcanvas offcanvas-end bg-dark text-light" tabIndex="-1" id="manu" aria-labelledby="manuLabel" data-bs-backdrop="true" data-bs-scroll="false" data-bs-toggle="offcanvas">
                 <div className="offcanvas-header m-3 align-self-end">
                     <button type="button" className="btn-close text-reset text-light btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>

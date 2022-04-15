@@ -50,3 +50,11 @@
 .mainContainer{
     min-height: 80vh;
 }
+.links{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.links:hover{
+    text-decoration: none;
+}
